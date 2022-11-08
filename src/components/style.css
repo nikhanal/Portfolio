@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+ul {
+  list-style: none;
+}
+nav {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contact {
+  font-size: 0.9rem;
+  background: #facf0f;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #facf0f;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.contact:hover {
+  transform: translateY(-5px);
+}
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+.khanal {
+  color: #facf10;
+}
+.hero {
+  display: block;
+  height: 90vh;
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+}
+.hero-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80rem;
+  width: 82%;
+}
+
+.intro h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+}
+.about {
+  margin: 3rem 10rem 0 10rem;
+}
+.about p {
+  color: #333;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.projects {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.projects a {
+  background: #facf0f;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.projects a:hover {
+  transform: translateY(-5px);
+}
+.contact-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.contact-me {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+}
+.contact-btn {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.icon-btn a {
+  display: block;
+  padding: 8px;
+  margin: 0 0.5rem;
+  border: 2px solid #808080;
+  border-radius: 5px;
+}
+
+.icon-btn a:hover {
+  background: #facf0f;
+  color: #333;
+  border: 2px solid #facf0f;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+  transform: translateY(-5px);
+}
