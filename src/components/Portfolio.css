@@ -14,7 +14,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
-    margin-bottom: 40px;  /* Increased margin for better spacing */
+    margin-bottom: 40px; 
   }
   
   /* Filter Bar */
@@ -116,8 +116,33 @@
   }
   
   @media (max-width: 768px) {
+    .portfolio-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px; 
+      }
     .projects-grid {
       grid-template-columns: 1fr;  
     }
+    .project-title {
+        font-size: 1.5rem;
+        color: #000;
+        margin: 10px 0;
+      }
+
+      .filter-bar button {
+        padding: 8px 20px; 
+        margin: 0;
+        border: none;
+        background-color: #FFC107;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px; 
+        font-size: .8rem;
+        font-weight: bold;
+        text-transform: uppercase;  
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
   }
   
