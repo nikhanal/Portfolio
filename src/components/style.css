@@ -155,3 +155,67 @@ a {
   transition: transform 0.3s;
   transform: translateY(-5px);
 }
+
+/* General Styling */
+.hero {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.hero-contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.khanal {
+  color: #FFC107; /* The yellow accent color */
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.projects {
+  margin-top: 30px;
+}
+
+.project-in, .cv-button {
+  display: inline-block;
+  margin: 0 10px;
+  border: none;
+  background-color: #facf0f;
+  color: #333333;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 16px 40px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+  transform: translateY(-5px);
+
+}
+
+
+.project-in:hover, .cv-button:hover {
+  background-color: #FFC007; /* Yellow hover effect */
+}
+
+/* .cv-button {
+  background-color: #FFC007;
+  color: black;
+} */
+
+

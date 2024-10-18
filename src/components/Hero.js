@@ -1,8 +1,13 @@
 import React from "react";
-
 import "./style.css";
 
 function Hero() {
+  // Function to handle scroll to portfolio
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById("portfolio-section");
+    portfolioSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="hero">
       <div className="hero-contents">
@@ -14,15 +19,25 @@ function Hero() {
         <div className="about">
           <p>
             A front-end web developer that is passionate about combining
-            business and technology to create successful products
+            business and technology to create successful products.
           </p>
         </div>
         <div className="projects">
-          <a
+          {/* Projects Button */}
+          <button
             className="project-in"
-            href="https://github.com/nikhanal?tab=repositories"
+            onClick={scrollToPortfolio}
           >
             Projects
+          </button>
+          {/* CV Button */}
+          <a
+            className="cv-button"
+            href="/cv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View CV
           </a>
         </div>
       </div>
